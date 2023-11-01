@@ -1,0 +1,1467 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "ondc-API",
+    "version" : "2023-10-03 10:00:09UTC"
+  },
+  "servers" : [ {
+    "url" : "https://5nc01qj6q0.execute-api.ap-south-1.amazonaws.com/{basePath}",
+    "variables" : {
+      "basePath" : {
+        "default" : ""
+      }
+    }
+  } ],
+  "paths" : {
+    "/ecommerce/ondc/buyer-finance/financeService-info" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer-finance/financeService-info"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-tvyneemu266rn3jx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer-finance/on_search" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer-finance/on_search"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-tvyneemu266rn3jx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer-finance/on_select" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer-finance/on_select"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-tvyneemu266rn3jx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer-finance/on_status" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer-finance/on_status"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-tvyneemu266rn3jx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer-finance/on_subscribe" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer-finance/on_subscribe"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-tvyneemu266rn3jx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer-finance/refresh" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer-finance/refresh"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-tvyneemu266rn3jx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer-finance/sendRequestForFinanceSearch" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer-finance/sendRequestForFinanceSearch"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-tvyneemu266rn3jx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer-finance/sendRequestForFinanceSelect" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer-finance/sendRequestForFinanceSelect"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-tvyneemu266rn3jx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer-finance/sendRequestForFinanceStatus" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer-finance/sendRequestForFinanceStatus"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-tvyneemu266rn3jx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/getAddress" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/getAddress"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/getCancellationReasons" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/getCancellationReasons"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/on_cancel" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/on_cancel"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/on_confirm" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/on_confirm"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/on_init" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/on_init"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/on_search" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/on_search"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:elasticloadbalancing:ap-south-1:980792173020:listener/app/bbps-uat-alb/d9bb50ddf7dafb93/3c1edd4a7b1094d6",
+          "connectionType" : "VPC_LINK",
+          "timeoutInMillis" : 30000
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/on_select" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/on_select"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-etsxyxsqqnuy4thu",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/on_status" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/on_status"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/on_subscribe" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/on_subscribe"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-etsxyxsqqnuy4thu",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/on_support" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/on_support"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/on_track" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/on_track"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/on_update" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/on_update"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/ondc-buyer" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/ondc-buyer"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/orderedListHistory" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/orderedListHistory"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/refresh" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/refresh"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-etsxyxsqqnuy4thu",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForCancel" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForCancel"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForCancelV2" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForCancelV2"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForConfirm" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForConfirm"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForConfirmV2" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForConfirmV2"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForInit" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForInit"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForInitV2" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForInitV2"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForSearch" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForSearch"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-etsxyxsqqnuy4thu",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForSearch/v2" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForSearch/v2"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-etsxyxsqqnuy4thu",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForSelect" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForSelect"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-etsxyxsqqnuy4thu",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForSelectV2" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForSelectV2"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-etsxyxsqqnuy4thu",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForStatus" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForStatus"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForStatusV2" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForStatusV2"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForSupport" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForSupport"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForTrack" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForTrack"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForUpdate" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForUpdate"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestForUpdateV2" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestForUpdateV2"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/sendRequestToTrack" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/sendRequestToTrack"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/service-info" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/service-info"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-etsxyxsqqnuy4thu",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/setDefaultAddress" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/setDefaultAddress"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/transService-info" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/transService-info"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/transServiceRefresh" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/transServiceRefresh"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/updateAddress" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/updateAddress"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/validateOnSearchResponse" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/validateOnSearchResponse"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-etsxyxsqqnuy4thu",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/validatedOnCancelResponse" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/validatedOnCancelResponse"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/validatedOnConfirmResponse" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/validatedOnConfirmResponse"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/validatedOnInitResponse" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/validatedOnInitResponse"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/validatedOnSelectResponse" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/validatedOnSelectResponse"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-etsxyxsqqnuy4thu",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/validatedOnStatusResponse" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/validatedOnStatusResponse"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/validatedOnSupportResponse" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/validatedOnSupportResponse"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/validatedOnTrackResponse" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/validatedOnTrackResponse"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/buyer/validatedOnUpdateResponse" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/buyer/validatedOnUpdateResponse"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-fyjvb33llzkpa52n",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/on_cancel" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/on_cancel"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/on_confirm" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/on_confirm"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/on_init" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/on_init"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/on_search" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/on_search"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/on_status" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/on_status"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/on_track" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/on_track"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/on_update" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/on_update"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/search/service-info" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/search/service-info"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/sendRequestForcancel" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/sendRequestForcancel"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/sendRequestForconfirm" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/sendRequestForconfirm"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/sendRequestForstatus" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/sendRequestForstatus"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/sendRequestFortrack" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/sendRequestFortrack"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/sendRequestForupdate" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/sendRequestForupdate"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller-logistic/{proxy+}" : {
+      "parameters" : [ {
+        "name" : "proxy+",
+        "in" : "path",
+        "description" : "Generated path parameter for proxy+",
+        "required" : true,
+        "schema" : {
+          "type" : "string"
+        }
+      } ],
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller-logistic/{proxy+}"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-qwhz4q6lqshsbgle",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/cancel" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/cancel"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-u6t3ldu2xa4xljzd",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/cancle" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/cancle"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-u6t3ldu2xa4xljzd",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/confirm" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/confirm"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-u6t3ldu2xa4xljzd",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/init" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/init"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-u6t3ldu2xa4xljzd",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/search" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/search"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-moleds4mscidfssx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/search/service-info" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/search/service-info"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-moleds4mscidfssx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/select" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/select"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-moleds4mscidfssx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/service-info" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/service-info"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-u6t3ldu2xa4xljzd",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/status" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/status"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-u6t3ldu2xa4xljzd",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/track" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/track"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-u6t3ldu2xa4xljzd",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/transaction/service-info" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/transaction/service-info"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-u6t3ldu2xa4xljzd",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ecommerce/ondc/seller/update" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ecommerce/ondc/seller/update"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-u6t3ldu2xa4xljzd",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    },
+    "/ondc-site-verification.html" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ondc-site-verification.html"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "2.0",
+          "type" : "aws_proxy",
+          "httpMethod" : "POST",
+          "uri" : "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:980792173020:function:ondc-html-function/invocations",
+          "connectionType" : "INTERNET",
+          "timeoutInMillis" : 50
+        }
+      }
+    },
+    "/ondc/buyer-finance/sendRequestForFinanceStatus" : {
+      "x-amazon-apigateway-any-method" : {
+        "responses" : {
+          "default" : {
+            "description" : "Default response for ANY /ondc/buyer-finance/sendRequestForFinanceStatus"
+          }
+        },
+        "x-amazon-apigateway-integration" : {
+          "payloadFormatVersion" : "1.0",
+          "connectionId" : "2fk97m",
+          "type" : "http_proxy",
+          "httpMethod" : "ANY",
+          "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-tvyneemu266rn3jx",
+          "connectionType" : "VPC_LINK"
+        }
+      }
+    }
+  },
+  "components" : {
+    "x-amazon-apigateway-integrations" : {
+      "unusedIntegration_6kheoku" : {
+        "payloadFormatVersion" : "1.0",
+        "connectionId" : "2fk97m",
+        "type" : "http_proxy",
+        "httpMethod" : "ANY",
+        "uri" : "arn:aws:servicediscovery:ap-south-1:980792173020:service/srv-gsmiqsnhjxmr2iha",
+        "connectionType" : "VPC_LINK"
+      },
+      "unusedIntegration_9549j4j" : {
+        "payloadFormatVersion" : "1.0",
+        "connectionId" : "2fk97m",
+        "type" : "http_proxy",
+        "httpMethod" : "ANY",
+        "uri" : "arn:aws:elasticloadbalancing:ap-south-1:980792173020:listener/app/bbps-uat-alb/d9bb50ddf7dafb93/3c1edd4a7b1094d6",
+        "connectionType" : "VPC_LINK"
+      }
+    }
+  },
+  "x-amazon-apigateway-cors" : {
+    "allowMethods" : [ "*" ],
+    "allowHeaders" : [ "*", "access-control-allow-methods", "access-control-allow-origin", "access-control-expose-headers", "authorization", "content-type" ],
+    "exposeHeaders" : [ "*", "access-control-expose-headers" ],
+    "maxAge" : 300,
+    "allowCredentials" : false,
+    "allowOrigins" : [ "*" ]
+  },
+  "x-amazon-apigateway-importexport-version" : "1.0"
+}
